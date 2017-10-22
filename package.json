@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-pros",
+  "version": "0.0.0",
+  "description": "Eslint rules for Productivity Services (tm)",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Carl",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "devDependencies": {
+    "requireindex": "~1.1.0",
+    "babel-eslint": "^8.0.1",
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
